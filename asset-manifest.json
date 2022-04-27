@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/github.io/static/css/main.885e17fe.css",
+    "main.js": "/github.io/static/js/main.f104baf9.js",
+    "static/media/back1.webp": "/github.io/static/media/back1.c5760912fe9b58239295.webp",
+    "index.html": "/github.io/index.html",
+    "main.885e17fe.css.map": "/github.io/static/css/main.885e17fe.css.map",
+    "main.f104baf9.js.map": "/github.io/static/js/main.f104baf9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.885e17fe.css",
+    "static/js/main.f104baf9.js"
+  ]
+}
