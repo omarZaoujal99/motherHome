@@ -1,0 +1,87 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&family=Ubuntu&display=swap");
+
+/* section 1 */
+.sec1 {
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../assests/images/back1.webp");
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  padding: 0% 5rem;
+  position: relative;
+}
+.sec1_p1 {
+  color: rgb(245, 245, 245);
+  text-shadow: 2px 3px 5px black;
+  font-family: Ubuntu;
+  line-height: 4rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.sec1_btn1 {
+  font-family: Ms Madi;
+  color: rgb(231, 188, 14);
+  text-shadow: 2px 3px 5px black;
+  font-size: 2rem;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 2rem;
+}
+.sec1_btn1_span1 {
+  font-size: 1.3rem;
+}
+.sec1_btn1:hover {
+  color: rgb(123, 70, 123);
+}
+.sec1_div1 {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1.2rem 0.8rem 1.2rem 1.1rem;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+.sec1_p2 {
+  color: white;
+  display: inline-block;
+  transition: all 0.3s;
+}
+.sec1_div1:hover{
+  color: rgb(231, 188, 14);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.sec1_div2 {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  padding: 1rem;
+}
+.sec1_btn2 {
+  transition: all 0.3s;
+  color: rgb(245, 245, 245);
+  font-family: Ubuntu;
+  text-shadow: 2px 2px 5px grey;
+  background-color: transparent;
+  font-size: 1.2rem;
+}
+.sec1_btn2_span1 {
+  color: rgb(231, 188, 14);
+  padding-right: 5px;
+}
+.sec1_btn2:hover {
+  transform: scale(1.05, 1.05);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 15px;
+}
